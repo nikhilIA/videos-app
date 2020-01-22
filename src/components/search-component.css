@@ -1,0 +1,21 @@
+.search-component{
+    width:100%;
+    box-sizing:border-box;
+    padding:15px 0px;
+}
+.search-component *{
+    box-sizing:border-box;
+}
+
+.search-bar label, .search-bar input{
+    width:100%;
+    display:block;
+    font-size:20px;
+    padding:5px 10px;
+    margin-top:10px;
+}
+
+.search-bar label{
+    font-weight:bold;
+    padding-left:0px;
+}

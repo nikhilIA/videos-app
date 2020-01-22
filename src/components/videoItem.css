@@ -1,0 +1,22 @@
+.videoItemInfo{
+    width:100%;
+    display:flex;
+    align-items:center;
+    margin-bottom:10px;
+    border:1px solid #000;
+    cursor: pointer;
+    padding:10px 5px;
+    border-radius:5px;
+}
+.videoItemInfo .videoImg{
+ width:30%;
+ margin-right:5%;
+}
+.videoItemInfo .videoImg img{
+    max-width:100%;
+}
+.videoItemInfo .videoTitle{
+width:65%;
+font-size:13px;
+text-transform:uppercase;
+}
