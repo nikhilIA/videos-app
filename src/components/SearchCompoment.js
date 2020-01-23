@@ -25,7 +25,7 @@ class SearchComponent extends  React.Component {
         <div className="search-component">
          <form onSubmit={this.onSubmitForm}>
         <div className="search-bar">
-         <label>Please Search Videos</label>   
+         <label>Please Search Videos.</label>   
          <input type="text" onChange={this.onInputChange} value={this.state.term} placeholder="Please Search Videos"/>
         </div>
 
